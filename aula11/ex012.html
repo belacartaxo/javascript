@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <div>
+        <label for="ipais">Qual país você mora?</label>
+        <input type="text" name="p" id="ipais">
+        <input type="button" value="Enviar" onclick="pais()">
+    </div>
+    <div id="res">
+
+    </div>
+    <script>
+        function pais(){
+            var pais = document.getElementById('ipais').value
+            var res = document.getElementById('res')
+            res.innerHTML = `Você mora no ${pais}. `
+            if (pais.toLowerCase() =='brasil'){
+                res.innerText += 'Você é brasileiro.'
+            } else {
+                res.innerText+= 'Você é estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
