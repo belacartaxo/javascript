@@ -7,12 +7,12 @@ header{
     color: white;
 }
 section{
-    height: 500px;
     width: 500px;
     background-color: white;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.563);
+    padding: 10px 15px 20px 15px;
 }
 footer{
     text-align: center;

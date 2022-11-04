@@ -7,12 +7,19 @@ header{
     color: white;
 }
 section{
-    height: 500px;
     width: 500px;
     background-color: white;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.563);
+    padding: 15px;
+}
+textarea{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p#txt{
+        text-align: center;
 }
 footer{
     text-align: center;

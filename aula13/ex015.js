@@ -3,3 +3,4 @@ do{
     console.log('Tudo bem?')
     c++
 } while (c <= 6)
+if ()
